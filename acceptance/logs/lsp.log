@@ -58,3 +58,257 @@
 05-10-2022 14:45:31.059 [Gauge] [DEBUG] Runner with PID:81679 has exited
 05-10-2022 14:45:31.063 [Gauge] [INFO] Connection closed
 05-10-2022 14:45:31.063 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+05-10-2022 20:16:11.469 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-10-2022 20:16:11.481 [Gauge] [INFO] Initializing specs cache with 1 specs
+05-10-2022 20:16:11.481 [Gauge] [DEBUG] Adding specs from /Users/taha/Desktop/Stuff/todo_web/acceptance/specs/todo_test.spec
+05-10-2022 20:16:11.481 [Gauge] [INFO] Initializing steps cache with 1 steps
+05-10-2022 20:16:11.483 [Gauge] [INFO] Starting language runner
+05-10-2022 20:16:11.484 [Gauge] [DEBUG] Watching directory: /Users/taha/Desktop/Stuff/todo_web/acceptance/specs
+05-10-2022 20:16:11.485 [Gauge] [DEBUG] Found 1 files
+05-10-2022 20:16:12.071 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60893
+05-10-2022 20:16:12.080 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60893
+05-10-2022 20:16:12.080 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+05-10-2022 20:16:12.089 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:16:12.139 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:16:12.141 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:16:12.168 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:16:35.283 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:16:35.307 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:16:35.992 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:16:36.000 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:17:49.184 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:17:49.191 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:04.660 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:04.664 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:05.195 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:05.200 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:06.481 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:06.484 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:06.735 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:06.739 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:32.705 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:18:32.822 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:32.826 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:32.992 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:18:33.107 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:33.110 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:33.315 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:18:33.428 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:33.431 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:36.920 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:18:37.041 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:37.044 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:37.161 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:18:37.269 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:37.272 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:37.513 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:18:37.624 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:37.627 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:37.846 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:18:37.956 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:37.958 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:18:39.554 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:18:39.556 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:28.783 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:28.791 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:31.729 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:31.732 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:33.587 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:33.589 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:36.184 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:36.187 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:38.003 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:38.008 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:39.459 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:39.462 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:39.842 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:39.845 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:41.425 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:41.429 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:41.616 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:41.620 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:41.853 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:41.856 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:42.725 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:42.728 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:21:49.473 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:21:49.476 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:29.679 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:29.682 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:29.847 [js] [ERROR] Line 8: Unexpected string
+05-10-2022 20:24:29.957 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:29.959 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:30.914 [js] [ERROR] Line 8: Unexpected string
+05-10-2022 20:24:31.026 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:31.029 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:31.423 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:31.426 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:32.832 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:32.835 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:35.481 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:35.484 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:36.867 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:36.871 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:37.349 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:37.352 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:41.892 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:41.896 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:42.817 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:42.819 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:43.626 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:43.629 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:45.856 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:45.858 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:51.043 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:51.813 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:24:51.815 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:24:58.508 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:25:01.510 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:25:03.494 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:25:03.496 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:25:05.745 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:25:06.966 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:25:06.968 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:25:07.628 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:25:12.609 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:26:12.506 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:26:13.264 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:26:15.561 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:26:15.563 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:26:25.573 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:26:26.353 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:26:26.355 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:26:26.839 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:26:27.333 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:26:27.335 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:27:42.455 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:27:42.457 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:36:55.569 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:36:55.572 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:36:58.539 [js] [ERROR] Line 10: Unexpected identifier
+05-10-2022 20:36:58.648 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:36:58.650 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:36:59.716 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:36:59.717 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:00.182 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:00.185 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:01.628 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:01.630 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:04.354 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:04.358 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:05.680 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:05.682 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:06.741 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:06.743 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:07.888 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:07.890 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:08.235 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:08.237 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:09.993 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:09.996 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:11.683 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:11.685 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:12.444 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:12.458 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:13.781 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:13.783 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:15.207 [js] [ERROR] Line 53: Unexpected end of input
+05-10-2022 20:37:15.319 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:15.322 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:16.227 [js] [ERROR] Line 54: Unexpected end of input
+05-10-2022 20:37:16.334 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:16.338 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:17.710 [js] [ERROR] Line 53: Unexpected end of input
+05-10-2022 20:37:17.816 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:17.819 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:18.009 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:18.010 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:37:18.733 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:37:18.735 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:38:27.631 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:38:27.635 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:38:29.030 [js] [ERROR] Line 6: Unexpected identifier
+05-10-2022 20:38:29.139 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:38:29.141 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:38:31.469 [js] [ERROR] Line 6: Unexpected identifier
+05-10-2022 20:38:31.581 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:38:31.584 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:38:32.615 [js] [ERROR] Line 6: Unexpected identifier
+05-10-2022 20:38:32.730 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:38:32.732 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:38:34.066 [js] [ERROR] Line 6: Unexpected identifier
+05-10-2022 20:38:34.173 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:38:34.175 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:38:45.754 [js] [ERROR] Line 11: Unexpected identifier
+05-10-2022 20:38:45.862 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:38:45.864 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:38:47.239 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:38:47.241 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:39:07.737 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:39:49.067 [js] [ERROR] Line 48: Unexpected end of input
+05-10-2022 20:39:49.210 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:39:53.206 [js] [ERROR] Line 50: Unexpected end of input
+05-10-2022 20:39:53.310 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:39:57.858 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:39:57.975 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:39:58.090 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:39:58.187 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:39:58.406 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:39:58.514 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:39:59.663 [js] [ERROR] Line 9: Unexpected token :
+05-10-2022 20:39:59.774 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:40:00.573 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:40:00.683 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:40:01.078 [js] [ERROR] Line 9: Unexpected identifier
+05-10-2022 20:40:01.200 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:40:02.172 [js] [ERROR] Line 51: Unexpected end of input
+05-10-2022 20:40:02.276 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:40:08.533 [js] [ERROR] Line 52: Unexpected end of input
+05-10-2022 20:40:08.644 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:40:08.804 [js] [ERROR] Line 13: Unexpected identifier
+05-10-2022 20:40:08.915 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:40:10.968 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:43:57.072 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:43:57.288 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:01.253 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:01.256 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:44:12.173 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:12.175 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:44:14.203 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:14.205 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:44:15.560 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:15.562 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:44:16.790 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:16.794 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:44:18.274 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:18.276 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:44:19.237 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:19.240 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:44:23.011 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:23.013 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:44:26.561 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:26.564 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:44:26.917 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:26.919 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:44:27.318 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:44:27.321 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:59:37.761 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:59:37.764 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:02:24.782 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:02:24.799 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:03:06.319 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:03:06.321 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:04:47.832 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:04:47.836 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:04:48.171 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:04:48.173 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:04:48.869 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:04:48.871 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:04:51.668 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:04:51.670 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:05:08.982 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:05:08.987 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:05:11.073 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:05:11.076 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:05:11.616 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:05:11.618 [Gauge] [DEBUG] Validation completed.

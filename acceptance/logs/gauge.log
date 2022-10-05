@@ -323,3 +323,1094 @@ TypeError: Cannot destructure property 'openBrowser' of 'require(...)' as it is 
 05-10-2022 14:34:26.849 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
 05-10-2022 14:34:26.849 [Gauge] [INFO] 
 Total time taken: 90ms
+05-10-2022 20:13:47.963 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:13:47.968 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:13:47.969 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:13:47.970 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:13:47.970 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:13:47.972 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:13:47.972 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:13:47.976 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:13:47.976 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:13:48.401 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:13:48.402 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:13:48.794 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:13:48.856 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:13:48.914 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60869
+05-10-2022 20:13:48.920 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60869
+05-10-2022 20:13:48.920 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:13:48.954 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:13:48.955 [Gauge] [DEBUG] Run started
+05-10-2022 20:13:48.963 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:13:49.071 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60874
+05-10-2022 20:13:49.073 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60874
+05-10-2022 20:13:49.073 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:13:49.103 [js] [ERROR] Unable to require module 'taiko' in /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js
+Error: Cannot find module 'taiko'
+Require stack:
+- /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:955:15)
+    at Module._load (node:internal/modules/cjs/loader:803:27)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:36:18
+    at Req.load (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:50:5)
+    at fn (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:61:20)
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:4:95
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+05-10-2022 20:13:49.105 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:4
+const { openBrowser, closeBrowser, screenshot, goto, write, into, text, $, waitFor, click } = require('taiko');
+        ^
+
+TypeError: Cannot destructure property 'openBrowser' of 'require(...)' as it is null.
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:4:9
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:13:49.114 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:13:49.114 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:13:49.115 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:13:49.115 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:13:49.115 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:13:49.135 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:13:49.136 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:13:49.136 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:13:49.140 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:60869: connect: connection refused"
+05-10-2022 20:13:49.140 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:13:49.140 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:13:49.140 [Gauge] [INFO] 
+Total time taken: 158ms
+05-10-2022 20:14:17.427 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:14:17.428 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:14:17.429 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:14:17.430 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:14:17.430 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:14:17.431 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:14:17.431 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:14:17.434 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:14:17.434 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:14:17.801 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:14:17.802 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:14:17.905 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60881
+05-10-2022 20:14:17.910 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60881
+05-10-2022 20:14:17.910 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:14:17.931 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:14:17.932 [Gauge] [DEBUG] Run started
+05-10-2022 20:14:17.937 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:14:17.988 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60886
+05-10-2022 20:14:17.992 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60886
+05-10-2022 20:14:17.993 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:14:18.014 [js] [ERROR] Unable to require module 'taiko' in /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js
+Error: Cannot find module 'taiko'
+Require stack:
+- /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:955:15)
+    at Module._load (node:internal/modules/cjs/loader:803:27)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:36:18
+    at Req.load (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:50:5)
+    at fn (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:61:20)
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:4:95
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+05-10-2022 20:14:18.014 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:4
+const { openBrowser, closeBrowser, screenshot, goto, write, into, text, $, waitFor, click } = require('taiko');
+        ^
+
+TypeError: Cannot destructure property 'openBrowser' of 'require(...)' as it is null.
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:4:9
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:14:18.024 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:14:18.024 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:14:18.025 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:14:18.025 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:14:18.026 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:14:18.026 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:14:18.034 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:14:18.034 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:14:18.034 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:14:18.036 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:60881: connect: connection refused"
+05-10-2022 20:14:18.036 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:14:18.036 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:14:18.036 [Gauge] [INFO] 
+Total time taken: 91ms
+05-10-2022 20:17:00.279 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:17:00.281 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:17:00.282 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:17:00.283 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:17:00.283 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:17:00.399 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:17:00.399 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:17:00.401 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:17:00.401 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:17:00.671 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:17:00.672 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:17:00.852 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60900
+05-10-2022 20:17:00.856 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60900
+05-10-2022 20:17:00.857 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:17:00.877 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:17:00.878 [Gauge] [DEBUG] Run started
+05-10-2022 20:17:00.883 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:17:00.896 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:17:00.940 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60905
+05-10-2022 20:17:00.944 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60905
+05-10-2022 20:17:00.944 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:17:00.962 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:17:01.222 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6
+beforeTest(async () => {
+^
+
+ReferenceError: beforeTest is not defined
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6:1
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:17:01.232 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:17:01.232 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:17:01.233 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:17:01.233 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:17:01.233 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:17:01.243 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:17:01.243 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:17:01.244 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:17:01.246 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:60900: connect: connection refused"
+05-10-2022 20:17:01.246 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:17:01.246 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:17:01.246 [Gauge] [INFO] 
+Total time taken: 353ms
+05-10-2022 20:19:48.052 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:19:48.055 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:19:48.057 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:19:48.057 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:19:48.057 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:19:48.166 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:19:48.166 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:19:48.168 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:19:48.168 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:19:48.632 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60915
+05-10-2022 20:19:48.639 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60915
+05-10-2022 20:19:48.640 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:48.662 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:48.663 [Gauge] [DEBUG] Run started
+05-10-2022 20:19:48.667 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:19:48.703 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60920
+05-10-2022 20:19:48.704 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60920
+05-10-2022 20:19:48.705 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:19:48.819 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:19:48.820 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:19:48.886 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6
+beforeTest(async () => {
+^
+
+ReferenceError: beforeTest is not defined
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6:1
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:19:48.895 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:19:48.895 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:19:48.897 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:19:48.897 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:19:48.897 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:19:48.906 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:19:48.906 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:19:48.906 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:19:48.908 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:60915: connect: connection refused"
+05-10-2022 20:19:48.908 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:19:48.908 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:19:48.908 [Gauge] [INFO] 
+Total time taken: 231ms
+05-10-2022 20:19:55.595 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:19:55.597 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:19:55.598 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:19:55.598 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:19:55.598 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:19:55.712 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:19:55.712 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:19:55.713 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:19:55.713 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:19:56.129 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60926
+05-10-2022 20:19:56.134 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60926
+05-10-2022 20:19:56.134 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:19:56.156 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:19:56.157 [Gauge] [DEBUG] Run started
+05-10-2022 20:19:56.161 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:19:56.189 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60931
+05-10-2022 20:19:56.190 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60931
+05-10-2022 20:19:56.190 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:19:56.350 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:19:56.351 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:19:56.395 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6
+beforeTest(async () => {
+^
+
+ReferenceError: beforeTest is not defined
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6:1
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:19:56.402 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:19:56.402 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:19:56.403 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:19:56.403 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:19:56.403 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:19:56.409 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:19:56.409 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:19:56.410 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:19:56.412 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:60926: connect: connection refused"
+05-10-2022 20:19:56.412 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:19:56.412 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:19:56.412 [Gauge] [INFO] 
+Total time taken: 244ms
+05-10-2022 20:22:17.913 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:22:17.915 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:22:17.916 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:22:17.917 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:22:17.917 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:22:18.022 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:22:18.022 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:22:18.023 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:22:18.024 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:22:18.276 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:22:18.277 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:22:18.461 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60945
+05-10-2022 20:22:18.464 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60945
+05-10-2022 20:22:18.465 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:22:18.475 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:22:18.484 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:22:18.484 [Gauge] [DEBUG] Run started
+05-10-2022 20:22:18.486 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:22:18.524 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:22:18.543 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60950
+05-10-2022 20:22:18.546 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60950
+05-10-2022 20:22:18.546 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:22:18.790 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6
+beforeTest(async () => {
+^
+
+ReferenceError: beforeTest is not defined
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6:1
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:22:18.797 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:22:18.797 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:22:18.798 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:22:18.798 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:22:18.798 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:22:18.806 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:22:18.806 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:22:18.806 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:22:18.809 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:60945: connect: connection refused"
+05-10-2022 20:22:18.809 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:22:18.809 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:22:18.809 [Gauge] [INFO] 
+Total time taken: 312ms
+05-10-2022 20:23:47.207 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:23:47.209 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:23:47.209 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:23:47.210 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:23:47.210 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:23:47.319 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:23:47.319 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:23:47.320 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:23:47.320 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:23:47.780 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60967
+05-10-2022 20:23:47.784 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60967
+05-10-2022 20:23:47.785 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:23:47.805 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:23:47.805 [Gauge] [DEBUG] Run started
+05-10-2022 20:23:47.813 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:23:47.875 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60972
+05-10-2022 20:23:47.878 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60972
+05-10-2022 20:23:47.878 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:23:47.946 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:23:47.947 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:23:48.093 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6
+beforeTest(async () => {
+^
+
+ReferenceError: beforeTest is not defined
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6:1
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:23:48.102 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:23:48.102 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:23:48.104 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:23:48.104 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:23:48.104 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:23:48.111 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:23:48.111 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:23:48.111 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:23:48.114 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:60967: connect: connection refused"
+05-10-2022 20:23:48.114 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:23:48.114 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:23:48.114 [Gauge] [INFO] 
+Total time taken: 296ms
+05-10-2022 20:23:57.945 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:23:57.949 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:23:57.950 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:23:57.951 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:23:57.951 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:23:58.065 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:23:58.065 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:23:58.067 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:23:58.067 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:23:58.508 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60979
+05-10-2022 20:23:58.511 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60979
+05-10-2022 20:23:58.511 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:23:58.532 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:23:58.533 [Gauge] [DEBUG] Run started
+05-10-2022 20:23:58.540 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:23:58.582 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60984
+05-10-2022 20:23:58.584 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60984
+05-10-2022 20:23:58.585 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:23:58.834 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6
+beforeTest(async () => {
+^
+
+ReferenceError: beforeTest is not defined
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6:1
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:23:58.842 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:23:58.842 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:23:58.844 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:23:58.844 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:23:58.844 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:23:58.852 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:23:58.852 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:23:58.852 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:23:58.854 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:60979: connect: connection refused"
+05-10-2022 20:23:58.854 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:23:58.854 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:23:58.854 [Gauge] [INFO] 
+Total time taken: 309ms
+05-10-2022 20:25:27.411 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:25:27.415 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:25:27.416 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:25:27.417 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:25:27.417 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:25:27.526 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:25:27.526 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:25:27.527 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:25:27.527 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:25:27.958 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60996
+05-10-2022 20:25:27.961 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60996
+05-10-2022 20:25:27.962 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:25:27.983 [Gauge] [ERROR] [ValidationError] /Users/taha/Desktop/Stuff/todo_web/acceptance/specs/todo_test.spec:2 Step implementation not found => 'Open "http://localhost:8080/"'
+05-10-2022 20:25:27.983 [Gauge] [ERROR] [ValidationError] /Users/taha/Desktop/Stuff/todo_web/acceptance/specs/todo_test.spec:5 Step implementation not found => 'Given empty todo list'
+05-10-2022 20:25:27.983 [Gauge] [ERROR] [ValidationError] /Users/taha/Desktop/Stuff/todo_web/acceptance/specs/todo_test.spec:6 Step implementation not found => 'When I write "buy some milk" to "Enter Todo" textbox and click "Add" button'
+05-10-2022 20:25:27.983 [Gauge] [ERROR] [ValidationError] /Users/taha/Desktop/Stuff/todo_web/acceptance/specs/todo_test.spec:7 Step implementation not found => 'Then I should see "buy some milk" item in the todo list'
+05-10-2022 20:25:27.984 [Gauge] [DEBUG] Run started
+05-10-2022 20:25:27.985 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:25:28.035 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61001
+05-10-2022 20:25:28.037 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61001
+05-10-2022 20:25:28.038 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:25:28.054 [js] [INFO] Runner Ready for Debugging
+05-10-2022 20:25:28.056 [js] [ERROR] Debugger listening on ws://127.0.0.1:60992/d9741b84-cfe2-4efc-920e-111683a7e96c
+05-10-2022 20:25:28.056 [js] [ERROR] For help, see: https://nodejs.org/en/docs/inspector
+05-10-2022 20:25:28.238 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:25:28.239 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:25:28.374 [js] [ERROR] Debugger attached.
+05-10-2022 20:25:28.645 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:25:28.707 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:25:29.818 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:25:29.830 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:25:29.830 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:25:29.830 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:25:30.037 [Gauge] [DEBUG] Runner with PID:91028 has exited
+05-10-2022 20:25:30.038 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+05-10-2022 20:25:30.038 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+05-10-2022 20:25:30.038 [Gauge] [INFO] 
+Total time taken: 1.833s
+05-10-2022 20:26:51.698 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:26:51.699 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:26:51.699 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:26:51.700 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:26:51.700 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:26:51.809 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:26:51.809 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:26:51.810 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:26:51.811 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:26:52.235 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61017
+05-10-2022 20:26:52.238 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61017
+05-10-2022 20:26:52.238 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:26:52.262 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:26:52.263 [Gauge] [DEBUG] Run started
+05-10-2022 20:26:52.264 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:26:52.288 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61022
+05-10-2022 20:26:52.289 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61022
+05-10-2022 20:26:52.289 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:26:52.321 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:26:52.322 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:26:52.494 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6
+beforeTest(async () => {
+^
+
+ReferenceError: beforeTest is not defined
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6:1
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:26:52.501 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:26:52.501 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:26:52.502 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:26:52.503 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:26:52.503 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:26:52.509 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:26:52.509 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:26:52.509 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:26:52.511 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:61017: connect: connection refused"
+05-10-2022 20:26:52.511 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:26:52.511 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:26:52.511 [Gauge] [INFO] 
+Total time taken: 237ms
+05-10-2022 20:27:45.361 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:27:45.362 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:27:45.377 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:27:45.378 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:27:45.379 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:27:45.487 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:27:45.488 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:27:45.489 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:27:45.489 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:27:45.930 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61029
+05-10-2022 20:27:45.934 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61029
+05-10-2022 20:27:45.935 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:27:45.956 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:27:45.957 [Gauge] [DEBUG] Run started
+05-10-2022 20:27:45.958 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:27:46.023 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61034
+05-10-2022 20:27:46.027 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61034
+05-10-2022 20:27:46.027 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:27:46.075 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:27:46.076 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:27:46.281 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6
+beforeTest(async () => {
+^
+
+ReferenceError: beforeTest is not defined
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6:1
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:27:46.289 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:27:46.288 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:27:46.290 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:27:46.290 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:27:46.290 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:27:46.299 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:27:46.299 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:27:46.299 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:27:46.301 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:61029: connect: connection refused"
+05-10-2022 20:27:46.302 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:27:46.302 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:27:46.302 [Gauge] [INFO] 
+Total time taken: 331ms
+05-10-2022 20:35:21.733 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:35:21.734 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:35:21.735 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:35:21.736 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:35:21.736 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:35:21.879 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:35:21.879 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:35:21.884 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:35:21.884 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:35:22.122 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:35:22.123 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:35:22.343 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61057
+05-10-2022 20:35:22.348 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61057
+05-10-2022 20:35:22.348 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:35:22.368 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:35:22.369 [Gauge] [DEBUG] Run started
+05-10-2022 20:35:22.375 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:35:22.422 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61062
+05-10-2022 20:35:22.426 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61062
+05-10-2022 20:35:22.426 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:35:22.499 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:35:22.568 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:35:22.691 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6
+beforeTest(async () => {
+^
+
+ReferenceError: beforeTest is not defined
+    at /Users/taha/Desktop/Stuff/todo_web/acceptance/tests/step_implementation.js:6:1
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 20:35:22.700 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:35:22.700 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 20:35:22.701 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:35:22.702 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 20:35:22.702 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 20:35:22.711 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:35:22.711 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:35:22.712 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:35:22.713 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:61057: connect: connection refused"
+05-10-2022 20:35:22.713 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:35:22.714 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 20:35:22.714 [Gauge] [INFO] 
+Total time taken: 330ms
+05-10-2022 20:45:47.989 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:45:47.991 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:45:47.993 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:45:47.993 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:45:47.994 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:45:48.106 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:45:48.106 [Gauge] [ERROR] Specs directory specs does not exists.
+05-10-2022 20:46:00.744 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:46:00.747 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:46:00.748 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:46:00.749 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:46:00.749 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:46:00.875 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:46:00.875 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:46:00.878 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:46:00.878 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:46:01.328 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61132
+05-10-2022 20:46:01.335 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61132
+05-10-2022 20:46:01.336 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:46:01.357 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:46:01.359 [Gauge] [DEBUG] Run started
+05-10-2022 20:46:01.363 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:46:01.422 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61137
+05-10-2022 20:46:01.425 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61137
+05-10-2022 20:46:01.425 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:46:01.570 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:46:01.572 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:46:01.796 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:46:01.857 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:46:02.469 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 20:46:02.489 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 20:46:02.507 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 20:46:02.833 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 20:46:02.863 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 20:46:13.115 [Gauge] [ERROR] Failed Step: When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 20:46:13.115 [Gauge] [ERROR] Error Message: Error: Timed out
+05-10-2022 20:46:13.115 [Gauge] [ERROR] Specification: specs/todo_test.spec:6
+05-10-2022 20:46:13.115 [Gauge] [ERROR] Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/taha/.gauge/plugins/js/2.4.0/src/test.js:44:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+05-10-2022 20:46:13.208 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:46:13.225 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:46:13.225 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:46:13.225 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:46:13.432 [Gauge] [DEBUG] Runner with PID:1180 has exited
+05-10-2022 20:46:13.433 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 20:46:13.433 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 20:46:13.433 [Gauge] [INFO] 
+Total time taken: 11.848s
+05-10-2022 20:47:52.078 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:47:52.084 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:47:52.087 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:47:52.088 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:47:52.089 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:47:52.208 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:47:52.208 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:47:52.210 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:47:52.210 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:47:52.645 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61162
+05-10-2022 20:47:52.649 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61162
+05-10-2022 20:47:52.649 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:47:52.671 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:47:52.672 [Gauge] [DEBUG] Run started
+05-10-2022 20:47:52.676 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:47:52.731 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61167
+05-10-2022 20:47:52.735 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61167
+05-10-2022 20:47:52.735 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:47:52.793 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:47:52.795 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:47:53.072 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:47:53.150 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:47:53.676 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 20:47:53.694 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 20:47:53.701 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 20:47:53.961 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 20:47:53.995 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 20:48:04.250 [Gauge] [ERROR] Failed Step: When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 20:48:04.250 [Gauge] [ERROR] Error Message: Error: Timed out
+05-10-2022 20:48:04.250 [Gauge] [ERROR] Specification: specs/todo_test.spec:6
+05-10-2022 20:48:04.250 [Gauge] [ERROR] Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/taha/.gauge/plugins/js/2.4.0/src/test.js:44:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+05-10-2022 20:48:04.342 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:48:04.357 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:48:04.357 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:48:04.357 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:48:04.564 [Gauge] [DEBUG] Runner with PID:2097 has exited
+05-10-2022 20:48:04.564 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 20:48:04.565 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 20:48:04.565 [Gauge] [INFO] 
+Total time taken: 11.669s
+05-10-2022 20:51:02.785 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:51:02.788 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:51:02.789 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:51:02.790 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:51:02.790 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:51:02.900 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:51:02.900 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:51:02.903 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:51:02.903 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:51:03.175 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:51:03.177 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:51:03.369 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61192
+05-10-2022 20:51:03.375 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61192
+05-10-2022 20:51:03.375 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:51:03.396 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:51:03.397 [Gauge] [DEBUG] Run started
+05-10-2022 20:51:03.398 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:51:03.443 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:51:03.457 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61197
+05-10-2022 20:51:03.462 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61197
+05-10-2022 20:51:03.462 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:51:03.533 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:51:04.399 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 20:51:04.411 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 20:51:04.423 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 20:51:04.647 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 20:51:04.674 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 20:51:14.925 [Gauge] [ERROR] 
+Failed Step: When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 20:51:14.925 [Gauge] [ERROR] Specification: specs/todo_test.spec:6
+05-10-2022 20:51:14.925 [Gauge] [ERROR] Error Message: Error: Timed out
+05-10-2022 20:51:14.925 [Gauge] [ERROR] Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/taha/.gauge/plugins/js/2.4.0/src/test.js:44:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+05-10-2022 20:51:15.013 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:51:15.027 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:51:15.028 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:51:15.030 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:51:15.236 [Gauge] [DEBUG] Runner with PID:3601 has exited
+05-10-2022 20:51:15.237 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 20:51:15.237 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 20:51:15.237 [Gauge] [INFO] 
+Total time taken: 11.615s
+05-10-2022 20:52:30.126 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:52:30.127 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:52:30.128 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:52:30.129 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:52:30.129 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:52:30.236 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:52:30.236 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:52:30.239 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:52:30.239 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:52:30.695 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61230
+05-10-2022 20:52:30.701 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61230
+05-10-2022 20:52:30.702 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:52:30.722 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:52:30.723 [Gauge] [DEBUG] Run started
+05-10-2022 20:52:30.724 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:52:30.774 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61235
+05-10-2022 20:52:30.776 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61235
+05-10-2022 20:52:30.777 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:52:30.945 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:52:30.946 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:52:31.160 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:52:31.226 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:52:31.698 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 20:52:31.717 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 20:52:31.724 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 20:52:31.947 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 20:52:31.972 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 20:52:42.240 [Gauge] [ERROR] 
+Failed Step: When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 20:52:42.240 [Gauge] [ERROR] Specification: specs/todo_test.spec:6
+05-10-2022 20:52:42.240 [Gauge] [ERROR] Error Message: Error: Timed out
+05-10-2022 20:52:42.240 [Gauge] [ERROR] Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/taha/.gauge/plugins/js/2.4.0/src/test.js:44:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+05-10-2022 20:52:42.332 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:52:42.344 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:52:42.344 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:52:42.345 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:52:42.552 [Gauge] [DEBUG] Runner with PID:4395 has exited
+05-10-2022 20:52:42.553 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 20:52:42.553 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 20:52:42.553 [Gauge] [INFO] 
+Total time taken: 11.607s
+05-10-2022 20:54:39.223 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:54:39.224 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:54:39.224 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:54:39.225 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:54:39.225 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:54:39.322 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:54:39.322 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:54:39.324 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:54:39.324 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:54:39.597 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:54:39.599 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:54:39.764 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61264
+05-10-2022 20:54:39.767 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61264
+05-10-2022 20:54:39.767 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:54:39.787 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:54:39.788 [Gauge] [DEBUG] Run started
+05-10-2022 20:54:39.789 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:54:39.821 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61269
+05-10-2022 20:54:39.823 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61269
+05-10-2022 20:54:39.823 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:54:39.836 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:54:39.887 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:54:40.503 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 20:54:40.517 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 20:54:40.524 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 20:54:40.698 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 20:54:40.720 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 20:54:50.981 [Gauge] [ERROR] 
+Failed Step: When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 20:54:50.981 [Gauge] [ERROR] Specification: specs/todo_test.spec:6
+05-10-2022 20:54:50.981 [Gauge] [ERROR] Error Message: Error: Timed out
+05-10-2022 20:54:50.981 [Gauge] [ERROR] Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/taha/.gauge/plugins/js/2.4.0/src/test.js:44:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+05-10-2022 20:54:51.071 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 20:54:51.082 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 20:54:51.083 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 20:54:51.083 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 20:54:51.289 [Gauge] [DEBUG] Runner with PID:5439 has exited
+05-10-2022 20:54:51.289 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 20:54:51.289 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 20:54:51.289 [Gauge] [INFO] 
+Total time taken: 11.283s
+05-10-2022 20:59:51.108 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 20:59:51.110 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 20:59:51.111 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 20:59:51.112 [Gauge] [DEBUG] Parsing started.
+05-10-2022 20:59:51.112 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 20:59:51.277 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 20:59:51.277 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 20:59:51.280 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 20:59:51.280 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 20:59:51.754 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61331
+05-10-2022 20:59:51.763 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61331
+05-10-2022 20:59:51.764 [Gauge] [DEBUG] Validation started.
+05-10-2022 20:59:51.786 [Gauge] [DEBUG] Validation completed.
+05-10-2022 20:59:51.787 [Gauge] [DEBUG] Run started
+05-10-2022 20:59:51.791 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 20:59:51.843 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61336
+05-10-2022 20:59:51.847 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61336
+05-10-2022 20:59:51.847 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 20:59:51.877 [Gauge] [DEBUG] Checking updates...
+05-10-2022 20:59:51.878 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:59:52.229 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:59:52.308 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 20:59:52.787 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 20:59:52.804 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 20:59:52.811 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 20:59:53.049 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 20:59:53.084 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 21:00:03.349 [Gauge] [ERROR] Failed Step: When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 21:00:03.349 [Gauge] [ERROR] Error Message: Error: Timed out
+05-10-2022 21:00:03.349 [Gauge] [ERROR] Specification: specs/todo_test.spec:6
+05-10-2022 21:00:03.349 [Gauge] [ERROR] Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/taha/.gauge/plugins/js/2.4.0/src/test.js:44:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+05-10-2022 21:00:03.443 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 21:00:03.458 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 21:00:03.458 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 21:00:03.459 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 21:00:03.664 [Gauge] [DEBUG] Runner with PID:7765 has exited
+05-10-2022 21:00:03.664 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 21:00:03.665 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 21:00:03.665 [Gauge] [INFO] 
+Total time taken: 11.655s
+05-10-2022 21:02:27.581 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 21:02:27.584 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 21:02:27.585 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 21:02:27.586 [Gauge] [DEBUG] Parsing started.
+05-10-2022 21:02:27.586 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 21:02:27.697 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 21:02:27.697 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 21:02:27.700 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 21:02:27.700 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 21:02:27.948 [Gauge] [DEBUG] Checking updates...
+05-10-2022 21:02:27.950 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:02:28.154 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61356
+05-10-2022 21:02:28.159 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61356
+05-10-2022 21:02:28.159 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:02:28.185 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:02:28.186 [Gauge] [DEBUG] Run started
+05-10-2022 21:02:28.196 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 21:02:28.206 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:02:28.242 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61361
+05-10-2022 21:02:28.245 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61361
+05-10-2022 21:02:28.245 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 21:02:28.256 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:02:29.174 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 21:02:29.186 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 21:02:29.198 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 21:02:29.431 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 21:02:29.457 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 21:02:39.722 [Gauge] [ERROR] Failed Step: When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 21:02:39.722 [Gauge] [ERROR] Error Message: Error: Timed out
+05-10-2022 21:02:39.722 [Gauge] [ERROR] Specification: specs/todo_test.spec:6
+05-10-2022 21:02:39.722 [Gauge] [ERROR] Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (/Users/taha/.gauge/plugins/js/2.4.0/src/test.js:44:23)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+05-10-2022 21:02:39.814 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 21:02:39.829 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 21:02:39.829 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 21:02:39.829 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 21:02:40.037 [Gauge] [DEBUG] Runner with PID:8966 has exited
+05-10-2022 21:02:40.038 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 21:02:40.038 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+05-10-2022 21:02:40.038 [Gauge] [INFO] 
+Total time taken: 11.626s
+05-10-2022 21:03:09.305 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 21:03:09.307 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 21:03:09.307 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 21:03:09.308 [Gauge] [DEBUG] Parsing started.
+05-10-2022 21:03:09.308 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 21:03:09.419 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 21:03:09.419 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 21:03:09.420 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 21:03:09.420 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 21:03:09.661 [Gauge] [DEBUG] Checking updates...
+05-10-2022 21:03:09.663 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:03:09.864 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61380
+05-10-2022 21:03:09.867 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61380
+05-10-2022 21:03:09.867 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:03:09.872 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:03:09.893 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:03:09.893 [Gauge] [DEBUG] Run started
+05-10-2022 21:03:09.898 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 21:03:09.919 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61385
+05-10-2022 21:03:09.919 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:03:09.920 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61385
+05-10-2022 21:03:09.920 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 21:03:10.537 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 21:03:10.549 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 21:03:10.558 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 21:03:10.720 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 21:03:10.745 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 21:03:14.088 [Gauge] [DEBUG] * Then I should see "buy some milk" item in the todo list
+05-10-2022 21:03:14.213 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 21:03:14.230 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 21:03:14.230 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 21:03:14.230 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 21:03:14.441 [Gauge] [DEBUG] Runner with PID:9327 has exited
+05-10-2022 21:03:14.441 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+05-10-2022 21:03:14.442 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+05-10-2022 21:03:14.442 [Gauge] [INFO] 
+Total time taken: 4.318s
+05-10-2022 21:05:01.168 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 21:05:01.170 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 21:05:01.171 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 21:05:01.171 [Gauge] [DEBUG] Parsing started.
+05-10-2022 21:05:01.171 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 21:05:01.288 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 21:05:01.288 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 21:05:01.290 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 21:05:01.290 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 21:05:01.530 [Gauge] [DEBUG] Checking updates...
+05-10-2022 21:05:01.531 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:05:01.743 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61406
+05-10-2022 21:05:01.746 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61406
+05-10-2022 21:05:01.746 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:05:01.766 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:05:01.767 [Gauge] [DEBUG] Run started
+05-10-2022 21:05:01.773 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 21:05:01.834 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61411
+05-10-2022 21:05:01.838 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61411
+05-10-2022 21:05:01.838 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 21:05:02.556 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:05:02.629 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:05:02.800 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 21:05:02.819 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 21:05:02.825 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 21:05:03.078 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 21:05:03.108 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 21:05:03.989 [Gauge] [DEBUG] * Then I should see "buy some milk" item in the todo list
+05-10-2022 21:05:04.117 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 21:05:04.128 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 21:05:04.128 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 21:05:04.128 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 21:05:04.336 [Gauge] [DEBUG] Runner with PID:10215 has exited
+05-10-2022 21:05:04.337 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+05-10-2022 21:05:04.337 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+05-10-2022 21:05:04.337 [Gauge] [INFO] 
+Total time taken: 2.348s
+05-10-2022 21:05:14.198 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 21:05:14.200 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 21:05:14.202 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 21:05:14.202 [Gauge] [DEBUG] Parsing started.
+05-10-2022 21:05:14.202 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 21:05:14.319 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 21:05:14.319 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 21:05:14.321 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 21:05:14.321 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 21:05:14.566 [Gauge] [DEBUG] Checking updates...
+05-10-2022 21:05:14.568 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:05:14.722 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:05:14.770 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:05:14.777 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61429
+05-10-2022 21:05:14.780 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61429
+05-10-2022 21:05:14.780 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:05:14.802 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:05:14.802 [Gauge] [DEBUG] Run started
+05-10-2022 21:05:14.806 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 21:05:14.833 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61434
+05-10-2022 21:05:14.835 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61434
+05-10-2022 21:05:14.835 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 21:05:15.552 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 21:05:15.568 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 21:05:15.577 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 21:05:15.763 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 21:05:15.788 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 21:05:17.105 [Gauge] [DEBUG] * Then I should see "buy some milk" item in the todo list
+05-10-2022 21:05:17.223 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 21:05:17.232 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 21:05:17.232 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 21:05:17.233 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 21:05:17.441 [Gauge] [DEBUG] Runner with PID:10354 has exited
+05-10-2022 21:05:17.442 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+05-10-2022 21:05:17.442 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+05-10-2022 21:05:17.442 [Gauge] [INFO] 
+Total time taken: 2.419s
+05-10-2022 21:06:54.844 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/Stuff/todo_web/acceptance/.gauge/screenshots
+05-10-2022 21:06:54.846 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 21:06:54.847 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 21:06:54.848 [Gauge] [DEBUG] Parsing started.
+05-10-2022 21:06:54.848 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 21:06:54.989 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 21:06:54.989 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 21:06:54.991 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 21:06:54.991 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 21:06:55.205 [Gauge] [DEBUG] Checking updates...
+05-10-2022 21:06:55.207 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:06:55.445 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:06:55.453 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61455
+05-10-2022 21:06:55.457 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61455
+05-10-2022 21:06:55.457 [Gauge] [DEBUG] Validation started.
+05-10-2022 21:06:55.480 [Gauge] [DEBUG] Validation completed.
+05-10-2022 21:06:55.481 [Gauge] [DEBUG] Run started
+05-10-2022 21:06:55.486 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 21:06:55.495 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=darwin&a=amd64
+05-10-2022 21:06:55.530 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61460
+05-10-2022 21:06:55.532 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61460
+05-10-2022 21:06:55.532 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 21:06:56.378 [Gauge] [INFO] # Todo Acceptance
+05-10-2022 21:06:56.395 [Gauge] [INFO] ## Scenario When I write buy some milk i should see the buy some milk in my list
+05-10-2022 21:06:56.406 [Gauge] [DEBUG] * Open "http://localhost:8080/"
+
+05-10-2022 21:06:56.626 [Gauge] [DEBUG] * Given empty todo list
+05-10-2022 21:06:56.651 [Gauge] [DEBUG] * When I write "buy some milk" to "Enter Todo" textbox and click "Add" button
+05-10-2022 21:06:57.970 [Gauge] [DEBUG] * Then I should see "buy some milk" item in the todo list
+05-10-2022 21:06:58.087 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 21:06:58.097 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/Stuff/todo_web/acceptance/reports/html-report/index.html
+05-10-2022 21:06:58.097 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 21:06:58.097 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 21:06:58.304 [Gauge] [DEBUG] Runner with PID:11300 has exited
+05-10-2022 21:06:58.305 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+05-10-2022 21:06:58.305 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+05-10-2022 21:06:58.305 [Gauge] [INFO] 
+Total time taken: 2.605s

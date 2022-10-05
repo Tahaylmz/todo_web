@@ -23,12 +23,12 @@
         <h1>Todo List</h1>
         <div>
         <input
-        id="text-input"
+          id="text-input"
           type="text"
-          placeholder="Type to add new todo"
+          placeholder="Enter Todo"
           :value="newTodo"
           @input="$emit('update:newTodo', $event.target.value)"/>
-        <button id="add-button" @click="addTodo">Add</button>
+        <button type="button" id="add-button" @click="addTodo">Add</button>
         </div>
         <div>
             <ul id="list">

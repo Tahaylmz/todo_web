@@ -1,7 +1,9 @@
 /* globals gauge*/
 
 const path = require('path');
+const assert = require('assert');
 const { openBrowser, closeBrowser, screenshot, goto, write, into, text, $, waitFor, click } = require('taiko');
+
 
 beforeSuite(async () => {
 	await openBrowser({
@@ -12,6 +14,7 @@ beforeSuite(async () => {
 afterSuite(async () => {
 	await closeBrowser();
 });
+
 
 gauge.customScreenshotWriter = async function () {
 	const screenshotFilePath = path.join(
@@ -30,7 +33,7 @@ step('Open <link>', async (link) => {
 });
 
 
-///*
+// After opening the browser
 
 step('Given empty todo list', async () => {
 	assert.ok(await $('#list').exists());
@@ -39,8 +42,8 @@ step('Given empty todo list', async () => {
 step(
 	'When I write <text> to <input> textbox and click <button> button',
 	async (text, input, button) => {
-		await write(text, into($('#input')));
-		await waitFor(3000);
+		await write(text, into($('#text-input')));
+		await waitFor(1000);
 		await click(button);
 	},
 );
