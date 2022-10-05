@@ -1,0 +1,325 @@
+05-10-2022 14:18:22.994 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/packet/acceptance/.gauge/screenshots
+05-10-2022 14:18:22.997 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 14:18:22.997 [Gauge] [INFO] Compatible version of plugin html-report not found. Installing plugin html-report...
+05-10-2022 14:18:22.997 [Gauge] [DEBUG] Gathering metadata for html-report
+05-10-2022 14:18:22.998 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=js&o=darwin&a=amd64
+05-10-2022 14:18:24.085 [Gauge] [DEBUG] Downloading https://github.com/getgauge/html-report/releases/download/v4.1.4/html-report-4.1.4-darwin.x86_64.zip
+05-10-2022 14:18:43.804 [Gauge] [DEBUG] Installing plugin html-report 4.1.4
+05-10-2022 14:18:43.841 [Gauge] [INFO] Successfully installed plugin 'html-report' version 4.1.4
+05-10-2022 14:18:43.842 [Gauge] [INFO] Installing required plugins.
+05-10-2022 14:18:43.842 [Gauge] [DEBUG] Installing plugin 'screenshot'
+05-10-2022 14:18:43.842 [Gauge] [DEBUG] Gathering metadata for screenshot
+05-10-2022 14:18:43.843 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js&o=darwin&a=amd64
+05-10-2022 14:18:43.990 [Gauge] [DEBUG] Downloading https://github.com/getgauge/gauge_screenshot/releases/download/v0.1.0/screenshot-0.1.0-darwin.x86_64.zip
+05-10-2022 14:18:44.083 [Gauge] [DEBUG] Checking updates...
+05-10-2022 14:18:44.085 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js&o=darwin&a=amd64
+05-10-2022 14:18:44.189 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js&o=darwin&a=amd64
+05-10-2022 14:18:47.780 [Gauge] [DEBUG] Installing plugin screenshot 0.1.0
+05-10-2022 14:18:47.789 [Gauge] [INFO] Successfully installed plugin 'screenshot' version 0.1.0
+05-10-2022 14:18:47.789 [Gauge] [DEBUG] Parsing started.
+05-10-2022 14:18:47.789 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 14:18:47.790 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 14:18:47.791 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 14:18:47.794 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 14:18:47.795 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 14:18:48.283 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59421
+05-10-2022 14:18:48.287 [Gauge] [DEBUG] Successfully made the connection with runner with port: 59421
+05-10-2022 14:18:48.287 [Gauge] [DEBUG] Validation started.
+05-10-2022 14:18:48.310 [Gauge] [DEBUG] Validation completed.
+05-10-2022 14:18:48.311 [Gauge] [DEBUG] Run started
+05-10-2022 14:18:48.316 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 14:18:49.501 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59428
+05-10-2022 14:18:49.503 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59428
+05-10-2022 14:18:49.503 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 14:18:49.524 [js] [ERROR] Unable to require module 'taiko' in /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js
+Error: Cannot find module 'taiko'
+Require stack:
+- /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:955:15)
+    at Module._load (node:internal/modules/cjs/loader:803:27)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:36:18
+    at Req.load (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:50:5)
+    at fn (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:61:20)
+    at /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4:95
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+05-10-2022 14:18:49.525 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4
+const { openBrowser, closeBrowser, screenshot, goto, write, into, text, $, waitFor, click } = require('taiko');
+        ^
+
+TypeError: Cannot destructure property 'openBrowser' of 'require(...)' as it is null.
+    at /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4:9
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 14:18:49.535 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 14:18:49.535 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 14:18:49.537 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 14:18:49.538 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 14:18:49.538 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 14:18:49.623 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/packet/acceptance/reports/html-report/index.html
+05-10-2022 14:18:49.624 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 14:18:49.624 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 14:18:49.626 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:59421: connect: connection refused"
+05-10-2022 14:18:49.627 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 14:18:49.627 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 14:18:49.627 [Gauge] [INFO] 
+Total time taken: 1.223s
+05-10-2022 14:24:04.352 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/packet/acceptance/.gauge/screenshots
+05-10-2022 14:24:04.355 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 14:24:04.355 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 14:24:04.356 [Gauge] [DEBUG] Parsing started.
+05-10-2022 14:24:04.356 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 14:24:04.357 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 14:24:04.357 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 14:24:04.360 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 14:24:04.360 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 14:24:04.798 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59714
+05-10-2022 14:24:04.801 [Gauge] [DEBUG] Successfully made the connection with runner with port: 59714
+05-10-2022 14:24:04.801 [Gauge] [DEBUG] Validation started.
+05-10-2022 14:24:04.821 [Gauge] [DEBUG] Validation completed.
+05-10-2022 14:24:04.822 [Gauge] [DEBUG] Run started
+05-10-2022 14:24:04.826 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 14:24:04.868 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59719
+05-10-2022 14:24:04.870 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59719
+05-10-2022 14:24:04.870 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 14:24:04.899 [js] [ERROR] Unable to require module 'taiko' in /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js
+Error: Cannot find module 'taiko'
+Require stack:
+- /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:955:15)
+    at Module._load (node:internal/modules/cjs/loader:803:27)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:36:18
+    at Req.load (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:50:5)
+    at fn (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:61:20)
+    at /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4:95
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+05-10-2022 14:24:04.900 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4
+const { openBrowser, closeBrowser, screenshot, goto, write, into, text, $, waitFor, click } = require('taiko');
+        ^
+
+TypeError: Cannot destructure property 'openBrowser' of 'require(...)' as it is null.
+    at /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4:9
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 14:24:04.907 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 14:24:04.907 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 14:24:04.908 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 14:24:04.908 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 14:24:04.908 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 14:24:04.917 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/packet/acceptance/reports/html-report/index.html
+05-10-2022 14:24:04.917 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 14:24:04.917 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 14:24:04.920 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:59714: connect: connection refused"
+05-10-2022 14:24:04.920 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 14:24:04.920 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 14:24:04.920 [Gauge] [INFO] 
+Total time taken: 84ms
+05-10-2022 14:24:44.602 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/packet/acceptance/.gauge/screenshots
+05-10-2022 14:24:44.603 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 14:24:44.603 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 14:24:44.603 [Gauge] [DEBUG] Parsing started.
+05-10-2022 14:24:44.603 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 14:24:44.604 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 14:24:44.604 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 14:24:44.607 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 14:24:44.607 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 14:24:45.035 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59760
+05-10-2022 14:24:45.038 [Gauge] [DEBUG] Successfully made the connection with runner with port: 59760
+05-10-2022 14:24:45.039 [Gauge] [DEBUG] Validation started.
+05-10-2022 14:24:45.061 [Gauge] [DEBUG] Validation completed.
+05-10-2022 14:24:45.061 [Gauge] [DEBUG] Run started
+05-10-2022 14:24:45.065 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 14:24:45.088 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59765
+05-10-2022 14:24:45.089 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59765
+05-10-2022 14:24:45.089 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 14:24:45.107 [js] [ERROR] Unable to require module 'taiko' in /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js
+Error: Cannot find module 'taiko'
+Require stack:
+- /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:955:15)
+    at Module._load (node:internal/modules/cjs/loader:803:27)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:36:18
+    at Req.load (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:50:5)
+    at fn (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:61:20)
+    at /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4:95
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+05-10-2022 14:24:45.108 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4
+const { openBrowser, closeBrowser, screenshot, goto, write, into, text, $, waitFor, click } = require('taiko');
+        ^
+
+TypeError: Cannot destructure property 'openBrowser' of 'require(...)' as it is null.
+    at /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4:9
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 14:24:45.115 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 14:24:45.115 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 14:24:45.116 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 14:24:45.117 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 14:24:45.117 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 14:24:45.125 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/packet/acceptance/reports/html-report/index.html
+05-10-2022 14:24:45.125 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 14:24:45.125 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 14:24:45.128 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:59760: connect: connection refused"
+05-10-2022 14:24:45.128 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 14:24:45.128 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 14:24:45.128 [Gauge] [INFO] 
+Total time taken: 53ms
+05-10-2022 14:25:10.566 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/packet/acceptance/.gauge/screenshots
+05-10-2022 14:25:10.568 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 14:25:10.569 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 14:25:10.570 [Gauge] [DEBUG] Parsing started.
+05-10-2022 14:25:10.570 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 14:25:10.571 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 14:25:10.571 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 14:25:10.574 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 14:25:10.574 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 14:25:11.030 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59796
+05-10-2022 14:25:11.033 [Gauge] [DEBUG] Successfully made the connection with runner with port: 59796
+05-10-2022 14:25:11.033 [Gauge] [DEBUG] Validation started.
+05-10-2022 14:25:11.053 [Gauge] [DEBUG] Validation completed.
+05-10-2022 14:25:11.054 [Gauge] [DEBUG] Run started
+05-10-2022 14:25:11.063 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 14:25:11.125 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59802
+05-10-2022 14:25:11.128 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 59802
+05-10-2022 14:25:11.128 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 14:25:11.151 [js] [ERROR] Unable to require module 'taiko' in /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js
+Error: Cannot find module 'taiko'
+Require stack:
+- /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:955:15)
+    at Module._load (node:internal/modules/cjs/loader:803:27)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:36:18
+    at Req.load (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:50:5)
+    at fn (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:61:20)
+    at /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4:95
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+05-10-2022 14:25:11.152 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4
+const { openBrowser, closeBrowser, screenshot, goto, write, into, text, $, waitFor, click } = require('taiko');
+        ^
+
+TypeError: Cannot destructure property 'openBrowser' of 'require(...)' as it is null.
+    at /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4:9
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 14:25:11.162 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 14:25:11.163 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 14:25:11.162 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 14:25:11.164 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 14:25:11.164 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 14:25:11.172 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/packet/acceptance/reports/html-report/index.html
+05-10-2022 14:25:11.173 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 14:25:11.173 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 14:25:11.175 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:59796: connect: connection refused"
+05-10-2022 14:25:11.175 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 14:25:11.175 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 14:25:11.175 [Gauge] [INFO] 
+Total time taken: 107ms
+05-10-2022 14:34:26.234 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/taha/Desktop/packet/acceptance/.gauge/screenshots
+05-10-2022 14:34:26.236 [Gauge] [DEBUG] Plugin js is already installed.
+05-10-2022 14:34:26.237 [Gauge] [DEBUG] Plugin html-report is already installed.
+05-10-2022 14:34:26.237 [Gauge] [DEBUG] Parsing started.
+05-10-2022 14:34:26.237 [Gauge] [DEBUG] Started concepts parsing.
+05-10-2022 14:34:26.238 [Gauge] [DEBUG] 0 concepts parsing completed.
+05-10-2022 14:34:26.238 [Gauge] [DEBUG] Started specifications parsing.
+05-10-2022 14:34:26.241 [Gauge] [DEBUG] 1 specifications parsing completed.
+05-10-2022 14:34:26.241 [Gauge] [DEBUG] Parsing completed.
+05-10-2022 14:34:26.700 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60292
+05-10-2022 14:34:26.703 [Gauge] [DEBUG] Successfully made the connection with runner with port: 60292
+05-10-2022 14:34:26.703 [Gauge] [DEBUG] Validation started.
+05-10-2022 14:34:26.744 [Gauge] [DEBUG] Validation completed.
+05-10-2022 14:34:26.744 [Gauge] [DEBUG] Run started
+05-10-2022 14:34:26.749 [Gauge] [DEBUG] Starting Html Report plugin
+05-10-2022 14:34:26.796 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 60297
+05-10-2022 14:34:26.800 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 60297
+05-10-2022 14:34:26.800 [Gauge] [DEBUG] Initialising suite data store.
+05-10-2022 14:34:26.823 [js] [ERROR] Unable to require module 'taiko' in /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js
+Error: Cannot find module 'taiko'
+Require stack:
+- /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:955:15)
+    at Module._load (node:internal/modules/cjs/loader:803:27)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:36:18
+    at Req.load (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:50:5)
+    at fn (/Users/taha/.gauge/plugins/js/2.4.0/src/req-manager.js:61:20)
+    at /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4:95
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+05-10-2022 14:34:26.824 [js] [CRITICAL] Error executing tests/step_implementation.js
+/Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4
+const { openBrowser, closeBrowser, screenshot, goto, write, into, text, $, waitFor, click } = require('taiko');
+        ^
+
+TypeError: Cannot destructure property 'openBrowser' of 'require(...)' as it is null.
+    at /Users/taha/Desktop/packet/acceptance/tests/step_implementation.js:4:9
+    at Script.runInContext (node:vm:141:12)
+    at Object.runInContext (node:vm:297:6)
+    at VM.run (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:59:8)
+    at VM.runFile (/Users/taha/.gauge/plugins/js/2.4.0/src/vm.js:73:8)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:13:10
+    at Array.forEach (<anonymous>)
+    at /Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:10:31
+    at new Promise (<anonymous>)
+    at Object.loadImpl [as load] (/Users/taha/.gauge/plugins/js/2.4.0/src/impl-loader.js:6:10)
+05-10-2022 14:34:26.835 [html-report] [DEBUG] Transformed SuiteResult to report structure
+05-10-2022 14:34:26.835 [Gauge] [ERROR] Error Message: error reading from server: EOF
+05-10-2022 14:34:26.836 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 14:34:26.836 [Gauge] [ERROR] Error Message: Runner is not Alive
+05-10-2022 14:34:26.836 [Gauge] [ERROR] Stacktrace: 
+05-10-2022 14:34:26.845 [html-report] [INFO] Successfully generated html-report to => /Users/taha/Desktop/packet/acceptance/reports/html-report/index.html
+05-10-2022 14:34:26.846 [html-report] [DEBUG] Done generating HTML report using theme from /Users/taha/.gauge/plugins/html-report/4.1.4/themes/default
+05-10-2022 14:34:26.846 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+05-10-2022 14:34:26.849 [Gauge] [ERROR] Failed to kill Runner: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:60292: connect: connection refused"
+05-10-2022 14:34:26.849 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 14:34:26.849 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+05-10-2022 14:34:26.849 [Gauge] [INFO] 
+Total time taken: 90ms

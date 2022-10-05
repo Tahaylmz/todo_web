@@ -1,0 +1,60 @@
+04-10-2022 18:44:56.414 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-10-2022 18:44:56.417 [Gauge] [INFO] Initializing specs cache with 1 specs
+04-10-2022 18:44:56.417 [Gauge] [DEBUG] Adding specs from /Users/taha/Desktop/packet/acceptance/specs/example.spec
+04-10-2022 18:44:56.417 [Gauge] [INFO] Initializing steps cache with 1 steps
+04-10-2022 18:44:56.419 [Gauge] [DEBUG] Watching directory: /Users/taha/Desktop/packet/acceptance/specs
+04-10-2022 18:44:56.420 [Gauge] [INFO] Starting language runner
+04-10-2022 18:44:56.420 [Gauge] [DEBUG] Found 1 files
+04-10-2022 18:44:57.351 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 64657
+04-10-2022 18:44:57.356 [Gauge] [DEBUG] Successfully made the connection with runner with port: 64657
+04-10-2022 18:44:57.357 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+04-10-2022 18:44:57.379 [Gauge] [DEBUG] Validation started.
+04-10-2022 18:44:57.395 [Gauge] [DEBUG] Validation completed.
+04-10-2022 19:01:56.158 [Gauge] [DEBUG] Spec file removed: /Users/taha/Desktop/packet/acceptance/specs/example.spec
+04-10-2022 19:02:23.493 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:02:25.499 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:02:40.569 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:02:42.791 [Gauge] [DEBUG] Validation started.
+04-10-2022 19:02:46.743 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:02:48.510 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:02:51.293 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:02:54.173 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:03:03.695 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:03:22.147 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:04:02.745 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:04:17.082 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:04:32.259 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:05:11.361 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:05:12.305 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:05:18.903 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:05:20.295 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:05:20.335 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 19:05:21.254 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 22:48:57.447 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 22:49:00.135 [Gauge] [DEBUG] Spec file added / modified: /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+04-10-2022 23:42:44.018 [Gauge] [DEBUG] Runner with PID:19503 has exited
+04-10-2022 23:42:44.023 [Gauge] [INFO] Connection closed
+04-10-2022 23:42:44.024 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+05-10-2022 14:16:10.776 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+05-10-2022 14:16:10.781 [Gauge] [INFO] Initializing specs cache with 1 specs
+05-10-2022 14:16:10.781 [Gauge] [DEBUG] Adding specs from /Users/taha/Desktop/packet/acceptance/specs/todo_test.spec
+05-10-2022 14:16:10.781 [Gauge] [INFO] Initializing steps cache with 1 steps
+05-10-2022 14:16:10.782 [Gauge] [DEBUG] Watching directory: /Users/taha/Desktop/packet/acceptance/specs
+05-10-2022 14:16:10.782 [Gauge] [DEBUG] Found 1 files
+05-10-2022 14:16:10.783 [Gauge] [INFO] Starting language runner
+05-10-2022 14:16:11.456 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 59275
+05-10-2022 14:16:11.461 [Gauge] [DEBUG] Successfully made the connection with runner with port: 59275
+05-10-2022 14:16:11.461 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+05-10-2022 14:16:11.471 [Gauge] [DEBUG] Validation started.
+05-10-2022 14:16:11.504 [Gauge] [DEBUG] Validation completed.
+05-10-2022 14:16:11.505 [Gauge] [DEBUG] Validation started.
+05-10-2022 14:16:11.528 [Gauge] [DEBUG] Validation completed.
+05-10-2022 14:16:35.849 [Gauge] [DEBUG] Validation started.
+05-10-2022 14:16:35.905 [Gauge] [DEBUG] Validation completed.
+05-10-2022 14:27:57.959 [Gauge] [DEBUG] Validation started.
+05-10-2022 14:27:57.968 [Gauge] [DEBUG] Validation completed.
+05-10-2022 14:28:01.490 [Gauge] [DEBUG] Validation started.
+05-10-2022 14:28:01.494 [Gauge] [DEBUG] Validation completed.
+05-10-2022 14:45:31.059 [Gauge] [DEBUG] Runner with PID:81679 has exited
+05-10-2022 14:45:31.063 [Gauge] [INFO] Connection closed
+05-10-2022 14:45:31.063 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
